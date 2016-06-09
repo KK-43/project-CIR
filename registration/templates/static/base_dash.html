@@ -97,6 +97,17 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
               <li><a href="{% url 'register_student_bulk' %}">Bulk Upload</a></li>
               <li><a href="{% url 'list' %}">List Students</a></li>
 
+
+            </ul>
+          </li>
+
+             <li class="sub open">
+            <a href="javascript:;">
+              <i class="fa fa-database"></i> Filters <div class="pull-right"><span class="caret"></span></div>
+            </a>
+            <ul class="templatemo-submenu">
+                <li><a href="{% url 'register_student' %}">Internal filter</a></li>
+                <li><a href="{% url 'filter_external' %}">External filter </a></li>
             </ul>
           </li>
 
